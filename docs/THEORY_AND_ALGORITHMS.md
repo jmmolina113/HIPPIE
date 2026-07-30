@@ -5,6 +5,9 @@ The physical background and assumptions are documented in
 which grounds HIPPIE in the differential-filter gated-pinhole diagnostic paper
 that the original pipeline replicated.
 
+The historical pipeline's published application is documented in
+[`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA2024.md).
+
 ## Filtered bremsstrahlung ratio
 
 The detector records self-emitted x-ray bremsstrahlung through two neighboring

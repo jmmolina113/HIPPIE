@@ -18,6 +18,20 @@
 This is the theory reference for the differential-filter measurement model;
 the MATLAB code remains the implementation reference.
 
+## Published HIPPIE application
+
+- V. Valenzuela-Villaseca *et al.*, “X-ray imaging and electron temperature
+  evolution in laser-driven magnetic reconnection experiments at the National
+  Ignition Facility,” *Physics of Plasmas* 31, 082106 (2024), DOI
+  `10.1063/5.0213598`.
+- DOI and publisher record: `https://doi.org/10.1063/5.0213598`.
+- See [`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA2024.md)
+  for the provenance mapping and porting boundaries.
+
+This is a downstream publication of the historical HIPPIE analysis. It is
+evidence of the original workflow's scientific use, not a substitute for
+reproducible MATLAB/Python numerical validation.
+
 The local Alexandria index records these Google Drive items under
 `The Library of Alexandria/Magnetic Reconnection Project/`:
 
