@@ -8,6 +8,16 @@
 
 ## First-party documentation candidates
 
+## External theory reference
+
+- D. B. Schaeffer et al., “Measurements of Electron Temperature in
+  High-Energy-Density Plasmas using Gated X-Ray Pinhole Imaging,” *Review of
+  Scientific Instruments* 92, 043524 (2021), DOI `10.1063/5.0043833`.
+- OSTI record and full text: `https://www.osti.gov/biblio/1810690`.
+
+This is the theory reference for the differential-filter measurement model;
+the MATLAB code remains the implementation reference.
+
 The local Alexandria index records these Google Drive items under
 `The Library of Alexandria/Magnetic Reconnection Project/`:
 
