@@ -1,0 +1,18 @@
+{
+  "name": "N210317-002 / 90-78",
+  "reference": "PPPL Summer 2022, 2D Pipeline - Spring 2023 Version",
+  "shot_sequence_port": "210317_002_90-78",
+  "shot_path": "${HIPPIE_DATA_ROOT}/N210317-002/TD_TC090-078_GXD_CAMERA-01-DB_SHOT_RAW-DIAGNOSTIC-IMAGE_N210317-002-999.h5",
+  "calibration_path": "${HIPPIE_DATA_ROOT}/Calibrations/TD_TC090-078_GXD4F_CALIBRATION_N180916-003-999.h5",
+  "parameters_directory": "PPPL Summer 2022/2D Pipeline - Spring 2023 Version/2D Pipeline/parameters/",
+  "filter_data_directory": "PPPL Summer 2022/Filter Data/",
+  "where_to_look": 0,
+  "pinhole": {"row": 2, "column": 1, "paired_column": 2},
+  "maximum_coordinate_xy": [500, 500],
+  "smoothing_pixels": 11,
+  "bin_size_xy": [5, 5],
+  "floor_value": 1,
+  "binning": "mean",
+  "temperature_bounds_eV": [100, 10000],
+  "status": "metadata only; runtime validation pending MATLAB/Python implementation"
+}

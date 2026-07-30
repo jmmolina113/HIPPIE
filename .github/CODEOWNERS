@@ -1,0 +1,6 @@
+# Scientific reference code and the Python port require canonical-owner review.
+/matlab/reference/ @jmmolina113
+/src/hippie/ @jmmolina113
+/config/ @jmmolina113
+/docs/ @jmmolina113
+/.github/CODEOWNERS @jmmolina113

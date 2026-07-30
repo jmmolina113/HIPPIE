@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible HIPPIE analysis or post-analysis problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping improve HIPPIE. Please remove private shot data before attaching files.
+  - type: input
+    id: matlab
+    attributes:
+      label: MATLAB or Python version
+      placeholder: MATLAB R2025b or Python 3.12
+    validations:
+      required: true
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Area
+      options:
+        - HDF5 ingestion or calibration
+        - Pinhole selection or alignment
+        - Filter/theory model
+        - Temperature inversion
+        - Post-analysis map or lineout
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include the smallest case configuration or commands that reproduce the issue.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Solver diagnostics or error output
+      description: Include the complete MATLAB/Python traceback and any run manifest or alignment diagnostics.
+      render: text
