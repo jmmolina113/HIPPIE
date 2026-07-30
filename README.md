@@ -25,7 +25,11 @@ user-owned research drive; its local path is deliberately not embedded in the
 public repository.
 
 No files in that archive or on the external drive are modified by this
-workspace.
+workspace. The public package now includes executable calibration,
+registration, filter-stack, theory/inversion, HDF5 inspection, result-manifest,
+and post-analysis stages. Shot-specific MATLAB/Python numerical parity remains
+pending until the raw HDF5 data and calibration tables are made available to a
+reproducible test run.
 
 The first golden case is the N210317-002 shot with the corresponding
 N180916-003 calibration. Its paths are recorded in
@@ -102,7 +106,7 @@ for comparison; it is not silently treated as a validated replacement.
 | Path | Purpose |
 |---|---|
 | `matlab/reference/` | SULI 2021, PPPL 2022, and Spring 2023 MATLAB lineage |
-| `src/hippie/` | Modern Python package under construction |
+| `src/hippie/` | Modern Python package and explicit processing stages |
 | `legacy/python_notebooks/` | Original PlasmaPy port and interactive notebooks |
 | `legacy/documentation/` | Preserved PPPL presentations and explanatory material |
 | `config/` | Portable case definitions and golden validation inputs |

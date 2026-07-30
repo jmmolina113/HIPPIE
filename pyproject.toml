@@ -15,6 +15,9 @@ dependencies = [
   "matplotlib>=3.7"
 ]
 
+[project.scripts]
+hippie-datasets = "hippie.cli:datasets"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
