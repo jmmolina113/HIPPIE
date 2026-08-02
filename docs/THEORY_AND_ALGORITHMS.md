@@ -6,7 +6,7 @@ which grounds HIPPIE in the differential-filter gated-pinhole diagnostic paper
 that the original pipeline replicated.
 
 The historical pipeline's published application is documented in
-[`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA2024.md).
+[`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md).
 
 ## Filtered bremsstrahlung ratio
 
@@ -31,14 +31,16 @@ pair registration, and any explicitly configured flooring or binning:
 S(x, y) = N_high-filter(x, y) / N_low-filter(x, y).
 ```
 
-The inversion searches a logarithmic temperature grid and selects the model
-temperature whose ratio is closest to `S`. The grid and tie behavior are
-configuration, not hidden constants.
+The inversion searches a caller-supplied, strictly increasing temperature grid
+and selects the model temperature whose ratio is closest to `S`. A logarithmic
+grid is often useful when the range spans orders of magnitude, but the grid is
+an analysis choice rather than a hidden constant.
 
 ## Uncertainty channels
 
 The historical code carries uncertainty through filter-thickness bounds and
-small image-space registration shifts. HIPPIE will report these separately:
+small image-space registration shifts. These are most useful when considered
+as separate contributions:
 
 1. filter transmission uncertainty;
 2. registration uncertainty;
@@ -51,6 +53,7 @@ interval unless its statistical meaning is established.
 ## Alignment assumptions
 
 The reference implementation uses a vertical target-edge landmark and a
-horizontal plume/current-sheet landmark. The corrected implementation will
-retain those landmarks but expose their coordinates, shift values, fit quality,
-and failure state in the output manifest.
+horizontal plume/current-sheet landmark. The Python package now also provides
+cross-correlation registration with reported integer shifts and a match score.
+The landmark-specific and automated approaches can be compared directly in the
+golden-case analysis.

@@ -1,4 +1,8 @@
 # Tests
 
-HIPPIE validation tests live here. MATLAB/Python parity tests will be added
-alongside the golden case after the numerical stages are ported.
+HIPPIE's automated Python tests live here. They cover configuration,
+calibration, ratio inversion, binning, filter-stack operations, registration,
+manifests, lineouts, and regional summaries.
+
+Golden-case MATLAB/Python tests will be added when the raw HDF5, calibration
+inputs, and reference outputs can be exercised reproducibly.

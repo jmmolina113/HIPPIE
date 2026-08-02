@@ -20,9 +20,15 @@ Use `hippie-datasets path/to/shot.h5` to inspect candidate HDF5 image datasets
 before selecting one explicitly. The package never overwrites source files;
 write derived arrays and `manifest.json` to a separate output directory.
 
-The numerical pipeline will be added behind this stable configuration boundary.
+The numerical stages are available through the public `hippie` API. They remain
+composable so that HDF5 datasets, calibration inputs, registration settings,
+filter curves, detector response, and the temperature grid can be selected for
+each analysis.
+
 Data paths should point to a local, authorized copy of the shot and calibration
-files; no research data are bundled in the repository.
+files; no research data are bundled in the repository. Shot-specific
+MATLAB/Python comparison remains pending the golden-case inputs and reference
+outputs.
 
 For historical MATLAB behavior, consult the scripts under
 `matlab/reference/`. Those scripts are preserved as evidence and still contain

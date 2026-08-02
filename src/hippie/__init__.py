@@ -1,11 +1,12 @@
 """HIPPIE: X-ray Pinhole Imaging Pipeline.
 
-The package is being ported in two explicit modes:
+The package preserves two explicit processing modes:
 
 ``legacy``
     Reproduce the historical MATLAB behavior for comparison.
 ``corrected``
-    Apply documented, opt-in fixes and dimension-aware behavior.
+    Apply documented, opt-in fixes and dimension-aware behavior. Shot-specific
+    equivalence remains subject to golden-case MATLAB/Python comparison.
 """
 
 from .config import CaseConfig, load_case_config

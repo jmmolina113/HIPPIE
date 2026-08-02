@@ -25,7 +25,7 @@ the MATLAB code remains the implementation reference.
   Ignition Facility,” *Physics of Plasmas* 31, 082106 (2024), DOI
   `10.1063/5.0213598`.
 - DOI and publisher record: `https://doi.org/10.1063/5.0213598`.
-- See [`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA2024.md)
+- See [`PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md`](PUBLISHED_APPLICATION_VALENZUELA_VILLASECA2024.md)
   for the provenance mapping and porting boundaries.
 
 This is a downstream publication of the historical HIPPIE analysis. It is

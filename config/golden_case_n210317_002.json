@@ -14,5 +14,5 @@
   "floor_value": 1,
   "binning": "mean",
   "temperature_bounds_eV": [100, 10000],
-  "status": "metadata only; runtime validation pending MATLAB/Python implementation"
+  "status": "configuration identified; shot-specific MATLAB/Python comparison pending source data and reference outputs"
 }

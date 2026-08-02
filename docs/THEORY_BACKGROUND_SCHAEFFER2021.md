@@ -21,7 +21,7 @@ For an optically thin, approximately Maxwellian plasma, the continuum
 emissivity can be written in the proportional form
 
 ```text
-j(E, T_e) ∝ n_e^2 sqrt(T_e) exp(-E / T_e),
+j(E, T_e) ∝ n_e^2 T_e^(-1/2) exp(-E / T_e),
 ```
 
 when photon energy and electron temperature are expressed in the same energy
@@ -72,8 +72,8 @@ The two pinhole images must also refer to the same source coordinates. A small
 relative displacement can create a false ratio gradient, especially at sharp
 plume or target edges. The historical HIPPIE code addresses this by selecting
 landmarks, aligning the images, and estimating ratio bounds from small spatial
-shifts. The modern package will retain the shifts and alignment diagnostics in
-the run manifest rather than reducing them to an unexplained error bar.
+shifts. The modern package exposes image shifts and a registration score, and
+the run manifest includes a place for those alignment diagnostics.
 
 ## Line-of-sight assumption
 
