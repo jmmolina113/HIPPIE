@@ -33,7 +33,10 @@ def filtered_signal(energy_eV, temperature_eV, transmission, response=None):
         raise ValueError("energy, transmission, and response must have equal shape")
     # ``trapezoid`` is newer than the NumPy version used by the historical
     # environments; keep the port runnable there as well.
-    integrate = getattr(np, "trapezoid", np.trapz)
+    # The fallback must be selected lazily: NumPy 2 provides ``trapezoid`` but
+    # removes ``trapz``, while older supported NumPy releases provide only
+    # ``trapz``.
+    integrate = np.trapezoid if hasattr(np, "trapezoid") else np.trapz
     return integrate(
         bremsstrahlung_spectrum(energy, temperature_eV) * transmission * response,
         energy,
