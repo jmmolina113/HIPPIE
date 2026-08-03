@@ -118,8 +118,9 @@ background subtraction, flat-fielding, unit-cell partitioning, pinhole-pair
 isolation, alignment, normalization, ratio formation, model integration, and
 error propagation.
 
-No file explicitly titled “SULI report” was found in the mounted Research tree
-or the indexed Alexandria collection. The abstract and slides are the closest
-first-party documentation and will be incorporated as theory and provenance
-references. A future Google Drive search can be added if the missing report has
-another title.
+The SULI final report was subsequently recovered as a local source copy. Its
+six-page account confirms the lineout-era calibration, registration, response
+integration, inversion, and uncertainty workflow, including the distinction
+between unresolved early-time points and measured zero temperature. See
+[`SULI_2021_REPORT.md`](SULI_2021_REPORT.md). The source PDF remains outside the
+public repository.

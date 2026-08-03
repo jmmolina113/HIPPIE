@@ -221,6 +221,9 @@ a ratio-weighted effective temperature rather than a unique local temperature.
 The derivation and its experimental context are discussed further in
 [`docs/THEORY_AND_ALGORITHMS.md`](docs/THEORY_AND_ALGORITHMS.md) and
 [`docs/THEORY_BACKGROUND_SCHAEFFER2021.md`](docs/THEORY_BACKGROUND_SCHAEFFER2021.md).
+Our recovered SULI final report adds the first-party experimental narrative,
+original lineout algorithm, and filter/alignment/noise sensitivity construction
+in [`docs/SULI_2021_REPORT.md`](docs/SULI_2021_REPORT.md).
 
 ## Analyze and save a result
 

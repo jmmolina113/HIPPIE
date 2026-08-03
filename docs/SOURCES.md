@@ -8,6 +8,12 @@
 
 ## First-party documentation candidates
 
+- J. M. Molina, D. B. Schaeffer, and W. Fox, *Measurement of Electron
+  Temperature in High Energy Density Magnetic Reconnection Experiments*, SULI
+  final report, 18 September 2021. A local source copy was recovered and read
+  on 3 August 2026; it is not redistributed in this repository.
+- Scientific-content map: [`SULI_2021_REPORT.md`](SULI_2021_REPORT.md).
+
 ## External theory reference
 
 - D. B. Schaeffer et al., “Measurements of Electron Temperature in
@@ -45,9 +51,7 @@ These materials describe the measurement and analysis method and will be used
 as documentation/theory references. They are not treated as executable source
 or as proof that a modernized implementation is numerically equivalent.
 
-## Missing item
-
-No document explicitly titled “SULI report” was found in the mounted Research
-tree or the local Alexandria inventory. The abstract and slides are the closest
-first-party records currently available. A connected Google Drive search should
-be performed if the report has a different title or folder name.
+The recovered SULI report supersedes the earlier note that only the abstract
+and slides were available. The local source remains preserved outside the
+public repository; the public note records its relevant scientific claims and
+their validation boundaries.
