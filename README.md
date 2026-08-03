@@ -1,7 +1,7 @@
 # HIPPIE
 
 <p align="center">
-  <strong>High-energy Imaging Pinhole Pipeline for Inference of Electron temperature</strong>
+  <strong> HIPPIE (pinHole Imaging PiPelInE) is comapnion software for the gated pinhole imaging technique developed for HEDP experiments by Shaeffer et al. </strong>
 </p>
 
 <p align="center">
