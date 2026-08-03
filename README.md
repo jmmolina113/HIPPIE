@@ -4,12 +4,7 @@
   <strong> HIPPIE (pinHole Imaging PiPelInE) is comapnion software for the gated pinhole imaging technique developed for HEDP experiments by Shaeffer et al. </strong>
 </p>
 
-<p align="center">
-  A MATLAB-reference and Python analysis package for differential-filter x-ray
-  pinhole thermometry in high-energy-density plasma experiments.
-</p>
-
-HIPPIE grew out of our SULI and PPPL magnetic-reconnection work. We have
+HIPPIE grew out of the time spent at PPPL during my SULI and PhD working on magnetic-reconnection. I have
 reorganized the historical analysis into a public Python package while keeping
 the MATLAB programs that document how the diagnostic developed. The result is a
 set of small, explicit stages for reading gated x-ray images, preparing and
